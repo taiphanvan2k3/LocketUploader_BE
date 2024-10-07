@@ -6,7 +6,6 @@ WORKDIR /app
 # Sao chép tệp package.json và package-lock.json (nếu có) vào thư mục làm việc
 COPY package*.json ./
 COPY .env* ./
-COPY key.json ./
 
 # Sao chép tất cả các tệp trong thư mục src vào thư mục làm việc
 COPY src ./src
